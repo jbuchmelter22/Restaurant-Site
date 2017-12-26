@@ -1,9 +1,14 @@
 h1 {
     text-align: center;
+    font-family: Brush Script MT, cursive;
+    font-size: 70px
 }
 #footer {
     text-align: center;
 }
 #box {
     box-sizing: border box; width: 400px; height: 225px; border: 1px solid black;
+}
+th {
+    font-size: larger;
 }

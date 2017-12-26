@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home Page</title>
+        <title>Contact Us</title>
         <link href= "restaurantStyles.css" rel="stylesheet" type="text/css"/>
         <style>
         #form {
-            margin-right: 800px;
+            text-align: center;
+        }
+        .req {
+            font-weight: bold;
         }
         </style>
     </head>
@@ -16,22 +19,22 @@
     <hr>
     <div id="form">
     <form action="#" method="post">
-        <p>Name: <input type="text" name="name" /></p>
-        <p>Email: <input type="text" name="email" /></p>
-        <p>Phone: <input type="text" name="phone" /></p>
-        <p>Reason for Inquiry: <select name="reasons">
+        <p class="req">Name: <input type="text" name="name" /></p>
+        <p class="req">Email: <input type="text" name="email" /></p>
+        <p class="req">Phone: <input type="text" name="phone" /></p>
+        <p class="req">Reason for Inquiry: <select name="reasons">
             <option value="Catering">Catering</option>
             <option value="Private Party">Private Party</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
             </select></p>
-        <p>Additional Information: <textarea name="Info"></textarea></p>
-        <p>Have you been to Sunset Grille? <input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes">Yes</p>
-        <p>Best days to contact you: <input type="checkbox" name="days" value="M">M<input type="checkbox" name="days" value="T">T<input type="checkbox" name="days" value="W">W<input type="checkbox" name="days" value="Th">Th<input type="checkbox" name="days" value="F">F</p>
-        <input type="submit" value="Send Request"><br>
+            <p class="req">Additional Information: <textarea name="Info"></textarea></p>
+            <p class="req">Have you been to Sunset Grille? <span style="font-weight: normal;"><input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes">Yes</span></p>
+            <p class="req">Best days to contact you: <span style="font-weight: normal;"><input type="checkbox" name="days" value="M">M<input type="checkbox" name="days" value="T">T<input type="checkbox" name="days" value="W">W<input type="checkbox" name="days" value="Th">Th<input type="checkbox" name="days" value="F">F</span></p>
+        <div style="text-align: center;"><input type="submit" value="Send Request"><br></span>
     </form>
 </div>
-    <hr>
+<hr>
     <div id="footer">131 West Orange St. Johnston, VA 32146</p>
     333-444-5555</div>
     </body>
