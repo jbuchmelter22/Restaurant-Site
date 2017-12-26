@@ -2,12 +2,19 @@
 <html>
     <head>
         <style>
-            tr {
-                text-align: center;
-            }
             #table {
                 margin: auto;
                 background-color: rgba(247, 131, 37, 0.5);
+                text-align: center;
+            }
+            #beverages {
+                margin: auto;
+                background-color: rgba(129, 203, 247, 0.5);
+                width: 20%;
+                text-align:left;
+            }
+            .prices {
+                text-align: right;
             }
             </style>
         <title>Menu</title>
@@ -19,6 +26,7 @@
         <a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact Us</a>
     <hr>
     <table id="table">
+        <caption style= "font-weight: bold; font-size: x-large;">Food</caption>
         <tr>
             <th>Burger and Fries</th>
             <th>Hot Dog and Chips</th>
@@ -38,6 +46,26 @@
             <td>Really Hits the Spot!<br>Plain or Sesame Seed Bun<br>Pickle, onion, tomato, and lettuce<br>Served with out house-made chips<br>$8.95</td>
             <td>On the Lighter Side<br>Your choice- with or without cheese<br>Iceberg lettuce, tomatoes, peppers<br>Thousand Island or Ranch Dressing<br>Served with a dinner roll<br>$6.95</td>
             <td>A Taste of Texas!<br>Smoked Brisket on thick-cut Texas Toast<br>Cole Slaw<br>Served with our famous thick-cut french fries<br>$7.95</td>
+        </tr>
+    </table>
+    <br>
+    <table id="beverages">
+        <caption style= "font-weight: bold; font-size: x-large;">Beverages</caption>
+        <tr>
+            <td style="font-weight: bold;">Root Beer</td>
+            <td class="prices">$3.00</td>
+        </tr>
+        <tr>
+                <td style="font-weight: bold;">Bottled Water</td>
+            <td class="prices">$1.25</td>
+        </tr>
+        <tr>
+                <td style="font-weight: bold;">Lemonade</td>
+            <td class="prices">$1.00</td>
+        </tr>
+        <tr>
+                <td style="font-weight: bold;">Iced Tea</td>
+            <td class="prices">$1.25</td>
         </tr>
     </table>
     <hr>

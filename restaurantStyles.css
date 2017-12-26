@@ -12,3 +12,15 @@ h1 {
 th {
     font-size: larger;
 }
+a:link {
+    color: blue;
+}
+a:visited {
+    color: palevioletred;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
