@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             #table {
                 margin: auto;
@@ -19,14 +22,15 @@
             </style>
         <title>Menu</title>
         <link href= "restaurantStyles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <h1>Sunset Grille</h1>
         <hr>
-        <a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact Us</a>
+        <div class="nav nav-tabs"><a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact Us</a></div>
     <hr>
     <table id="table">
-        <caption style= "font-weight: bold; font-size: x-large;">Food</caption>
+        <div class="col-md-6"><caption style= "font-weight: bold; font-size: x-large;">Food</caption>
         <tr>
             <th>Burger and Fries</th>
             <th>Hot Dog and Chips</th>
@@ -48,7 +52,9 @@
             <td>A Taste of Texas!<br>Smoked Brisket on thick-cut Texas Toast<br>Cole Slaw<br>Served with our famous thick-cut french fries<br>$7.95</td>
         </tr>
     </table>
+</div>
     <br>
+    <div class="col-md-4">
     <table id="beverages">
         <caption style= "font-weight: bold; font-size: x-large;">Beverages</caption>
         <tr>
@@ -68,6 +74,7 @@
             <td class="prices">$1.25</td>
         </tr>
     </table>
+    </div>
     <hr>
     <div id="footer">131 West Orange St. Johnston, VA 32146<br><br>
     333-444-5555</div>
